@@ -1,0 +1,8 @@
+@media (max-width:1000px){
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: none;
+    }
+}

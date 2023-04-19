@@ -1,0 +1,34 @@
+{
+  "name":"samarthbackend",
+  "version":"1.0.0",
+  "description":"",
+  "main":"index.js",
+  "scripts":{
+    "start":"node src/server.js",
+    "dev":"nodemon src/server.js",
+    "data:import":"node src/db/db.js"
+    },
+  "repository":{
+    "type":"git",
+    "url":"git+https://github.com/Rishabhco/samarthBackend.git"
+    },
+  "author":"",
+  "license":"ISC",
+  "bugs":{"url":"https://github.com/Rishabhco/samarthBackend/issues"},
+  "homepage":"https://github.com/Rishabhco/samarthBackend#readme",
+  "dependencies":{
+    "bcryptjs":"^2.4.3",
+    "body-parser":"^1.19.1",
+    "cors":"^2.8.5",
+    "dotenv":"^14.3.2",
+    "express":"^4.17.2",
+    "firebase-tools":"^11.0.0",
+    "jsonwebtoken":"^8.5.1",
+    "mongoose":"^6.1.7",
+    "uuid":"^8.3.2",
+    "validator":"^13.7.0"
+    },
+  "devDependencies":{
+    "nodemon":"^2.0.15"
+    }
+}
